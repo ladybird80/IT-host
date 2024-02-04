@@ -1,0 +1,75 @@
+//news
+.post-img {
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.detail,
+.last-detail {
+  font-size: 12px;
+  color: #acacac;
+  padding-left: 12px;
+}
+.detail::after {
+  content: "|";
+  padding-left: 10px;
+}
+.news p {
+  color: #585858;
+  line-height: 2;
+}
+//page number
+.page-number {
+  color: $magenta-color;
+}
+//sidebar
+.sidebar-item input {
+  border-radius: 15px;
+  width: 100%;
+  height: 60px;
+  border: 0;
+  background-color: #f5f1f8;
+}
+.post-img,
+.sidebar-item img {
+  width: 100%;
+  height: auto;
+}
+.sidebar-item img {
+  border-radius: 15px;
+  height: 350px;
+}
+.sidebar-item button {
+  right: 3px;
+  bottom: 20px;
+  color: #acacac;
+  background-color: transparent;
+}
+.sidebar-title {
+  font-size: 17px;
+}
+.sidebar-item .latest-img {
+  border-radius: 30%;
+  height: auto;
+  width: 200px;
+}
+.sidebar-item .big-tag {
+  color: $magenta-color;
+  font-size: 17px;
+}
+.sidebar-item ul li {
+  margin-top: 20px;
+}
+.sidebar-item form {
+  padding-top: 30px;
+}
+
+.latest-news h6,
+ul li a,
+.tag a {
+  font-size: 14px;
+  color: #585858;
+}
+//latest posts
+.latest-news span {
+  color: $pink-color;
+}

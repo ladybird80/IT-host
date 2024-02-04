@@ -1,0 +1,46 @@
+//info
+.contact-info i {
+  color: $magenta-color;
+  padding-right: 10px;
+}
+//form
+.contact-form input,
+.contact-form textarea {
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: $background-color;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact-form input::placeholder {
+  padding: 30px;
+}
+.subject input,
+.contact-form textarea {
+  width: 100%;
+}
+.contact-form textarea {
+  width: 100%;
+  height: auto;
+}
+//map
+.hear {
+  top: 40%;
+  left: 80%;
+  width: 100px;
+  height: 80px;
+  background-color: $magenta-color;
+  border-radius: 15px;
+}
+.hear::after {
+  content: "";
+  position: absolute;
+  content: "";
+  top: 100%;
+  right: 40px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 17px solid $magenta-color;
+}

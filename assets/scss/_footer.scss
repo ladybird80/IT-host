@@ -1,0 +1,49 @@
+//footer
+footer p,
+.useful-links li,
+.footer-menu a {
+  opacity: 0.3;
+}
+
+//footer top
+.footer-top {
+  font-size: 14px;
+  min-height: 500px;
+  background-color: #200545;
+}
+
+.social-holder i {
+  color: wheat;
+  padding-left: 13px;
+  padding-top: 10px;
+  background-color: #491f70;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.useful-links li {
+  margin-top: 10px;
+}
+
+.latest-posts-item img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+}
+//footer-bottom
+.footer-bottom {
+  min-height: 50px;
+  background-color: #1b043b;
+  font-size: 13px;
+  color: white;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+}
+.footer-menu a:hover {
+  color: $magenta-color;
+}
+.copyright p a {
+  color: #007bff;
+}

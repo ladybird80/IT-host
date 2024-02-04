@@ -1,0 +1,25 @@
+// home header
+.header,
+.feauters-domain-search {
+  min-height: 200px;
+  background: url(../images/home-background.webp) center center no-repeat;
+  background-size: cover;
+}
+//header
+.navbar-toggler span i {
+  font-size: 30px;
+}
+.main-menu li a {
+  font-size: 17px;
+  margin-left: 10px;
+  color: white;
+}
+.main-menu li a:hover {
+  color: $magenta-color;
+}
+//other pages
+.page-header {
+  background: url(../images/page-top-bg.jpg.webp) no-repeat;
+  background-size: cover;
+  min-height: 450px;
+}

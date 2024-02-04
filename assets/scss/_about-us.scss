@@ -1,0 +1,51 @@
+// form
+
+.about-form-holder input {
+  background-color: #f5f1f8;
+  border: none;
+}
+//choose us
+.choose-us-text p {
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 2;
+  & button a {
+    color: white;
+  }
+}
+//achivments
+.achivments {
+  background: url(../images/achivements-bg.webp) no-repeat;
+  background-size: cover;
+}
+.achivments-text {
+  padding-top: 100px;
+}
+.achivement-item {
+  padding-top: 60px;
+  & h2 {
+    font-size: 55px;
+  }
+  & i {
+    color: $magenta-color;
+    font-size: 76px;
+    & p {
+      font-size: 18px;
+    }
+  }
+}
+//team member
+.team-member img {
+  border-radius: 40px;
+  width: 250px;
+  height: auto;
+}
+.team-member .team-contact a i {
+  padding-right: 25px;
+  color: white;
+}
+//client logo
+.client-logo {
+  background-color: #dee7ee;
+  padding: 70px, 0;
+}

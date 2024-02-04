@@ -1,0 +1,57 @@
+//header
+.services {
+  min-height: 600px;
+}
+//mission
+.mission,
+.vision,
+.vision-img {
+  min-height: 600px;
+  background: linear-gradient(to bottom, #0a0228 0%, #2e1779 100%);
+}
+.mission p,
+.vision p {
+  line-height: 2;
+  font-size: 14px;
+}
+//vision
+.vision {
+  background: #2d1678;
+}
+.vision-img {
+  background: #422b8f;
+}
+.service-img {
+  padding-top: 200px;
+  padding-left: 45px;
+  height: 500px;
+  width: auto;
+}
+.vision-img img {
+  margin-right: 5px;
+}
+.services-text {
+  padding: 60px;
+}
+//faq
+.faq,
+.last-faq {
+  font-size: 14px;
+  width: 100%;
+  background: linear-gradient(to right, #2e1779 0%, #0a0228 100%);
+  border-radius: 15px;
+  border: none;
+}
+
+.faq-text {
+  padding: 40px;
+
+  font-size: 14px;
+  line-height: 2;
+  & img {
+    border-radius: 15px;
+  }
+}
+.last-faq {
+  background: $magenta-color;
+}
