@@ -19,6 +19,15 @@ a {
   color: black;
 }
 
+iframe {
+  margin-top: 30px;
+  width: 100%;
+}
+
+button a {
+  color: white;
+}
+
 .pink-color {
   color: #eb2b63;
 }
@@ -29,6 +38,18 @@ a {
   background-color: #eb2b63;
   border-radius: 15px;
   height: 50px;
+}
+
+.nav-btn {
+  background-color: #eb2b63;
+  border-radius: 15px;
+  font-size: 14px;
+  width: 150px;
+}
+
+.vision-btn {
+  height: 50px;
+  width: 200px;
 }
 
 .opacity-7 {
@@ -48,46 +69,13 @@ a {
   opacity: 0.3;
 }
 
-iframe {
-  margin-top: 30px;
-  width: 100%;
-}
-
-button a {
-  color: white;
-}
-
 .badge {
   background-color: #eb2b63;
   color: white;
 }
 
-.nav-btn {
-  background-color: #eb2b63;
-  border-radius: 15px;
-  font-size: 14px;
-  width: 150px;
-}
-
 .lh2 {
   line-height: 2;
-}
-
-.vision-btn {
-  height: 50px;
-  width: 200px;
-}
-
-.page-header {
-  background: url(../images/page-top-bg.jpg.webp) no-repeat;
-  background-size: cover;
-  min-height: 450px;
-}
-
-.page-header {
-  background: url(../images/page-top-bg.jpg.webp) no-repeat;
-  background-size: cover;
-  min-height: 450px;
 }
 
 .header,
@@ -504,9 +492,8 @@ footer p,
 
 .service-img {
   padding-top: 200px;
-  padding-left: 45px;
   height: 500px;
-  width: auto;
+  max-width: 100%;
 }
 
 .vision-img img {
@@ -533,6 +520,7 @@ footer p,
 }
 .faq-text img {
   border-radius: 15px;
+  width: 300px;
 }
 
 .last-faq {
@@ -582,9 +570,19 @@ footer p,
   height: auto;
 }
 
+.our-team .group-img img {
+  border-radius: 40px;
+  width: 50px;
+  height: auto;
+}
+
 .team-member .team-contact a i {
   padding-right: 25px;
   color: white;
+}
+
+.team-contact i:hover {
+  background-color: #eb2b63;
 }
 
 .client-logo {

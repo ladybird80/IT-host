@@ -23,9 +23,9 @@
 }
 .service-img {
   padding-top: 200px;
-  padding-left: 45px;
+
   height: 500px;
-  width: auto;
+  max-width: 100%;
 }
 .vision-img img {
   margin-right: 5px;
@@ -50,6 +50,8 @@
   line-height: 2;
   & img {
     border-radius: 15px;
+
+    width: 300px;
   }
 }
 .last-faq {
